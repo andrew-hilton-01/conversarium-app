@@ -314,7 +314,7 @@ export default function App() {
                 </li>
               </ul>
               <form>
-              <button formAction="mailto:info@conversarium.app" className="w-full bg-slate-700 hover:bg-slate-600 py-3 rounded-lg font-medium transition-colors">
+              <button formAction="mailto:contact@conversarium.app" className="w-full bg-slate-700 hover:bg-slate-600 py-3 rounded-lg font-medium transition-colors">
                 
                   Contact Sales
                 
@@ -367,20 +367,12 @@ export default function App() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
-              className="flex-1 px-6 py-4 bg-slate-800/50 border border-slate-700 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-            />
-            <button
-              onClick={handleWaitlistSubmit}
-              disabled={isSubmitted}
-              className="bg-blue-500 hover:bg-blue-600 disabled:bg-green-500 px-8 py-4 rounded-lg font-semibold transition-colors whitespace-nowrap"
-            >
-              {isSubmitted ? 'Added! 🎉' : 'Join Waitlist'}
-            </button>
+              <form action="https://formsubmit.co/contact@conversarium.app" method="POST">
+              <input type="email" name="email" required placeholder="Enter your email"
+              className="flex-1 px-6 py-4 bg-slate-800/50 border border-slate-700 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"/>
+              <button type="submit" className="bg-blue-500 hover:bg-blue-600 disabled:bg-green-500 px-8 py-4 rounded-lg font-semibold transition-colors whitespace-nowrap">Join Waitlist</button>
+              </form>
+
           </div>
           
           <p className="text-sm text-slate-500 mt-4">
