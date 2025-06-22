@@ -9,23 +9,11 @@ import {
   Globe, 
   Check, 
   ArrowRight, 
-  Github,
   Mail,
   ChevronDown
 } from 'lucide-react';
 
 export default function App() {
-  const [email, setEmail] = useState('');
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const handleWaitlistSubmit = (e) => {
-    e.preventDefault();
-    if (email) {
-      setIsSubmitted(true);
-      setTimeout(() => setIsSubmitted(false), 3000);
-      setEmail('');
-    }
-  };
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -45,7 +33,7 @@ export default function App() {
               className="w-8 h-8"
               style={{ display: 'inline-block', verticalAlign: 'middle' }}
             />
-            <span className="text-xl font-bold font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
+            <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
                   style={{marginLeft: '-0.8rem'}}>
                     onversarium</span>
           </div>
@@ -383,8 +371,8 @@ export default function App() {
 
       {/* About Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-slate-950 via-slate-900/70 to-slate-950 relative z-10">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8">About Conversarium</h2>
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">About Conversarium</h2>
           <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
             Originally inspired by the need for sales students to get repetitions mastering their process in a determinstic way, Conversarium 
             offers a structured, and gameified conversation flow graph for any context, without having to trust leaky LLMs to manage the structure,
@@ -393,7 +381,7 @@ export default function App() {
           </p>
           
           <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl border border-slate-800/50 max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4">Coming Soon</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Coming Soon</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm justify-center w-fit mx-auto text-center">
               <div className="flex items-center justify-center space-x-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
