@@ -376,7 +376,7 @@ export default function App() {
           </div>
           
           <p className="text-sm text-slate-500 mt-4">
-            No spam. Unsubscribe anytime. Early access comes with special pricing.
+            No spam. Unsubscribe anytime.
           </p>
         </div>
       </section>
