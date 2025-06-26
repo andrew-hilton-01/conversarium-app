@@ -7,62 +7,85 @@ import Nav from './Nav';
 import { Handle, Position } from '@xyflow/react';
 
 const ConvoNode = ({ data }) => {
+  const [showTooltip, setShowTooltip] = useState(false);
   const color = data.stageColor || '#6b7280';
 
   return (
     <div
-      className="px-4 py-3 border-2 rounded-lg bg-slate-800 text-white min-w-[200px] max-w-[300px]"
-      style={{ borderColor: color }}
+      className="px-4 py-3 border-2 rounded-lg bg-slate-800 text-white min-w-[200px] max-w-[300px] flex flex-col relative"
+      style={{ borderColor: color, height: '140px' }}
+      onMouseEnter={() => setShowTooltip(true)}
+      onMouseLeave={() => setShowTooltip(false)}
     >
-      {/* handles - bidirectional */}
+      {/* handles - bidirectional - hidden */}
       <Handle
         type="target"
         position={Position.Top}
         id="top"
-        style={{ background: color }}
+        style={{ background: color, opacity: 0 }}
       />
       <Handle
         type="source"
         position={Position.Top}
         id="top-out"
-        style={{ background: color, left: '60%' }}
+        style={{ background: color, left: '60%', opacity: 0 }}
       />
       <Handle
         type="source"
         position={Position.Bottom}
         id="bottom"
-        style={{ background: color }}
+        style={{ background: color, opacity: 0 }}
       />
       <Handle
         type="target"
         position={Position.Bottom}
         id="bottom-in"
-        style={{ background: color, left: '60%' }}
+        style={{ background: color, left: '60%', opacity: 0 }}
       />
       <Handle
         type="target"
         position={Position.Left}
         id="left"
-        style={{ background: color }}
+        style={{ background: color, opacity: 0 }}
       />
       <Handle
         type="source"
         position={Position.Left}
         id="left-out"
-        style={{ background: color, top: '60%' }}
+        style={{ background: color, top: '60%', opacity: 0 }}
       />
       <Handle
         type="source"
         position={Position.Right}
         id="right"
-        style={{ background: color }}
+        style={{ background: color, opacity: 0 }}
       />
       <Handle
         type="target"
         position={Position.Right}
         id="right-in"
-        style={{ background: color, top: '60%' }}
+        style={{ background: color, top: '60%', opacity: 0 }}
       />
+
+      {/* Tooltip */}
+      {showTooltip && (
+        <div className="fixed bg-slate-900 border border-slate-600 rounded-lg p-4 shadow-2xl text-xs pointer-events-none"
+             style={{ 
+               zIndex: 9999,
+               left: '50%',
+               top: '20%',
+               transform: 'translateX(-50%)',
+               width: '400px',
+               maxWidth: '90vw'
+             }}>
+          <div className="font-medium mb-3 text-sm" style={{ color }}>
+            {data.name}
+          </div>
+          <div className="text-slate-300 whitespace-pre-wrap leading-relaxed">
+            {data.content}
+          </div>
+        </div>
+      )}
 
       {/* node body */}
       <div className="flex items-center justify-between mb-2 text-xs font-semibold text-slate-300">
@@ -80,12 +103,14 @@ const ConvoNode = ({ data }) => {
         )}
       </div>
 
-      <div className="font-medium text-sm mb-1" style={{ color }}>
+      <div className="font-medium text-sm mb-2" style={{ color }}>
         {data.name}
       </div>
 
-      <div className="text-xs text-slate-300 line-clamp-3">
-        {data.content}
+      <div className="text-xs text-slate-300 flex-1 overflow-hidden">
+        <div className="line-clamp-4 leading-relaxed">
+          {data.content}
+        </div>
       </div>
     </div>
   );
@@ -224,7 +249,7 @@ export default function Demo() {
             id: `edge-${sourceId}-${targetId}-${index}`,
             source: sourceId,
             target: targetId,
-            type: 'bezier',
+            type: 'step',
             sourceHandle: handles.sourceHandle,
             targetHandle: handles.targetHandle,
             style: {
