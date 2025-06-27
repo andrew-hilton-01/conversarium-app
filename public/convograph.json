@@ -1,0 +1,1899 @@
+{
+  "nodes": [
+    {
+      "id": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+      "order_index": 0,
+      "stage_id": "8dde40ea-5aa4-4a3f-9366-0c3f8da9540e",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Thank you for meeting with me today, Dr. Carter. I'm excited to learn more about your school's goals and how we might align them with our AI sales practice software. Could you share a bit about your current initiatives in integrating technology into your curriculum?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Warm Welcome and Establishing Connection",
+        "content": "Thank you for meeting with me today, Dr. Carter. I'm excited to learn more about your school's goals and how we might align them with our AI sales practice software. Could you share a bit about your current initiatives in integrating technology into your curriculum?",
+        "node_type": "information_gathering",
+        "difficulty": 1.5,
+        "generation_context": {
+          "stage_index": 0,
+          "total_stages": 5,
+          "prior_nodes_count": 0,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Currently, we are focusing on incorporating digital tools that enhance both teaching and learning processes, such as interactive whiteboards and online collaboration platforms. Our goal is to create an engaging and technologically rich environment that prepares students for the future.",
+              "score": 0.9,
+              "reasoning": "This response aligns well with Dr. Carter's objectives of improving education quality and integrating technology, showcasing ongoing initiatives.",
+              "emotional_tone": "Informative"
+            },
+            "id": "9984908e-6ec2-484e-be89-889bc76e86ab",
+            "node_id": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+            "score": 0.9,
+            "response_text": "Currently, we are focusing on incorporating digital tools that enhance both teaching and learning processes, such as interactive whiteboards and online collaboration platforms. Our goal is to create an engaging and technologically rich environment that prepares students for the future."
+          },
+          {
+            "meta": {
+              "response_text": "Our recent initiative involves piloting a digital textbook program to reduce costs and increase accessibility for all students. However, we're still evaluating its effectiveness in meeting our educational goals.",
+              "score": 0.7,
+              "reasoning": "This provides a concrete example of an initiative, though it lacks detailed alignment with the full spectrum of Dr. Carter's objectives.",
+              "emotional_tone": "Pragmatic"
+            },
+            "id": "145c5b63-6e38-4e0b-8c4c-e5cdac7fb2b9",
+            "node_id": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+            "score": 0.7,
+            "response_text": "Our recent initiative involves piloting a digital textbook program to reduce costs and increase accessibility for all students. However, we're still evaluating its effectiveness in meeting our educational goals."
+          },
+          {
+            "meta": {
+              "response_text": "We haven't fully defined our current initiatives, but we're exploring various technological options.",
+              "score": 0.3,
+              "reasoning": "This response is vague and doesn't effectively communicate Dr. Carter's active engagement in technology integration.",
+              "emotional_tone": "Uncertain"
+            },
+            "id": "7fe1c62f-1093-4a46-871c-ce18e2a06e5d",
+            "node_id": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+            "score": 0.3,
+            "response_text": "We haven't fully defined our current initiatives, but we're exploring various technological options."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+      "order_index": 1,
+      "stage_id": "8dde40ea-5aa4-4a3f-9366-0c3f8da9540e",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "It's impressive to hear about your commitment to technology. Can you tell me more about the specific challenges you're facing with your current tech solutions and what improvements you're looking to achieve?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Understanding Current Technological Implementations",
+        "content": "It's impressive to hear about your commitment to technology. Can you tell me more about the specific challenges you're facing with your current tech solutions and what improvements you're looking to achieve?",
+        "node_type": "information_gathering",
+        "difficulty": 2,
+        "generation_context": {
+          "stage_index": 0,
+          "total_stages": 5,
+          "prior_nodes_count": 1,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "One major challenge is ensuring that our technology solutions remain user-friendly for both teachers and students while staying within budget. We're looking for tools that provide measurable improvements in engagement and learning outcomes.",
+              "score": 0.9,
+              "reasoning": "This response clearly outlines the challenges and improvements sought, aligning with Dr. Carter's objectives and constraints.",
+              "emotional_tone": "Analytical"
+            },
+            "id": "54b67ea7-9d01-48eb-83ad-9c89aabb3213",
+            "node_id": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+            "score": 0.9,
+            "response_text": "One major challenge is ensuring that our technology solutions remain user-friendly for both teachers and students while staying within budget. We're looking for tools that provide measurable improvements in engagement and learning outcomes."
+          },
+          {
+            "meta": {
+              "response_text": "We face difficulties in training staff to effectively use new technologies in their teaching. We're aiming to find more intuitive solutions that require less training.",
+              "score": 0.7,
+              "reasoning": "This acknowledges a specific challenge but doesn't fully discuss all improvements sought.",
+              "emotional_tone": "Concerned"
+            },
+            "id": "c0c4b651-3dc2-4cac-ba11-1d85cc2fc1e8",
+            "node_id": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+            "score": 0.7,
+            "response_text": "We face difficulties in training staff to effectively use new technologies in their teaching. We're aiming to find more intuitive solutions that require less training."
+          },
+          {
+            "meta": {
+              "response_text": "Our tech solutions are generally satisfactory, though we're always on the lookout for improvements.",
+              "score": 0.4,
+              "reasoning": "This response lacks specificity and fails to communicate a strong commitment to addressing current challenges.",
+              "emotional_tone": "Neutral"
+            },
+            "id": "266d16bc-c1a6-4267-8b81-6d02c022bbe1",
+            "node_id": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+            "score": 0.4,
+            "response_text": "Our tech solutions are generally satisfactory, though we're always on the lookout for improvements."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+      "order_index": 2,
+      "stage_id": "8dde40ea-5aa4-4a3f-9366-0c3f8da9540e",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Given your focus on enhancing student engagement and performance, how do you envision the role of AI in achieving these outcomes? Are there particular areas you feel could benefit most from an AI-driven approach?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Exploring Educational Goals and Technology Needs",
+        "content": "Given your focus on enhancing student engagement and performance, how do you envision the role of AI in achieving these outcomes? Are there particular areas you feel could benefit most from an AI-driven approach?",
+        "node_type": "information_gathering",
+        "difficulty": 2.5,
+        "generation_context": {
+          "stage_index": 0,
+          "total_stages": 5,
+          "prior_nodes_count": 2,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "AI could play a significant role in personalized learning, allowing students to progress at their own pace while providing teachers with valuable insights into student performance.",
+              "score": 0.9,
+              "reasoning": "This response effectively aligns with Dr. Carter's motivations for enhancing student engagement.",
+              "emotional_tone": "Optimistic"
+            },
+            "id": "85671f58-0c09-45b9-a0d2-8d4dfdc6f5ac",
+            "node_id": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+            "score": 0.9,
+            "response_text": "AI could play a significant role in personalized learning, allowing students to progress at their own pace while providing teachers with valuable insights into student performance."
+          },
+          {
+            "meta": {
+              "response_text": "I'm interested in exploring AI applications that can support teacher workload, such as automated grading systems, which could free up time for more personalized instruction.",
+              "score": 0.8,
+              "reasoning": "This response identifies a practical application of AI that supports educational goals.",
+              "emotional_tone": "Practical"
+            },
+            "id": "6afe7893-c95c-4745-a1ca-45241831c518",
+            "node_id": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+            "score": 0.8,
+            "response_text": "I'm interested in exploring AI applications that can support teacher workload, such as automated grading systems, which could free up time for more personalized instruction."
+          },
+          {
+            "meta": {
+              "response_text": "AI sounds promising, but we're cautious about its impact on our educational model.",
+              "score": 0.5,
+              "reasoning": "This response expresses interest but lacks clarity on how AI could be integrated.",
+              "emotional_tone": "Cautious"
+            },
+            "id": "e66ac632-2448-4420-bdc8-4dd6c4dd4f90",
+            "node_id": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+            "score": 0.5,
+            "response_text": "AI sounds promising, but we're cautious about its impact on our educational model."
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3e525cd-22a8-42a8-afb5-734277088b20",
+      "order_index": 0,
+      "stage_id": "4c6e0a37-f7ca-476d-915c-399ad5a90b37",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Dr. Carter, could you elaborate on the current technologies you have in place and how they're being used to enhance student engagement and performance? Are there any gaps or areas where they're not meeting your expectations?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Understanding Current Solutions",
+        "content": "Dr. Carter, could you elaborate on the current technologies you have in place and how they're being used to enhance student engagement and performance? Are there any gaps or areas where they're not meeting your expectations?",
+        "node_type": "information_gathering",
+        "difficulty": 2.5,
+        "generation_context": {
+          "stage_index": 1,
+          "total_stages": 5,
+          "prior_nodes_count": 3,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "We currently use a variety of digital learning platforms that offer interactive content and virtual classrooms. However, there is a gap in integrating these tools in a way that seamlessly enhances our existing curriculum.",
+              "score": 0.9,
+              "reasoning": "This response identifies current technologies and their shortcomings, providing a clear picture of the situation.",
+              "emotional_tone": "Objective"
+            },
+            "id": "f38c12cc-ae19-4bb5-9c87-3935c0a17b1c",
+            "node_id": "f3e525cd-22a8-42a8-afb5-734277088b20",
+            "score": 0.9,
+            "response_text": "We currently use a variety of digital learning platforms that offer interactive content and virtual classrooms. However, there is a gap in integrating these tools in a way that seamlessly enhances our existing curriculum."
+          },
+          {
+            "meta": {
+              "response_text": "Our primary technology includes interactive whiteboards and educational apps. While these are helpful, they sometimes fall short in offering personalized learning experiences.",
+              "score": 0.8,
+              "reasoning": "This response offers a clear description but could delve deeper into engagement and performance impacts.",
+              "emotional_tone": "Reflective"
+            },
+            "id": "6965f341-3719-4d76-9d3d-00ead56d0282",
+            "node_id": "f3e525cd-22a8-42a8-afb5-734277088b20",
+            "score": 0.8,
+            "response_text": "Our primary technology includes interactive whiteboards and educational apps. While these are helpful, they sometimes fall short in offering personalized learning experiences."
+          },
+          {
+            "meta": {
+              "response_text": "Our technologies are mostly adequate but have room for improvement in terms of engagement.",
+              "score": 0.5,
+              "reasoning": "This response is less detailed and doesn't fully address the expectations set by the question.",
+              "emotional_tone": "Neutral"
+            },
+            "id": "bc0615d2-c3a9-4899-99a0-9ef41dbbc1db",
+            "node_id": "f3e525cd-22a8-42a8-afb5-734277088b20",
+            "score": 0.5,
+            "response_text": "Our technologies are mostly adequate but have room for improvement in terms of engagement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "20aef203-99a8-4631-99fb-1c69de235779",
+      "order_index": 1,
+      "stage_id": "4c6e0a37-f7ca-476d-915c-399ad5a90b37",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "What specific educational goals are you looking to achieve in the coming years? How do you see technology playing a role in reaching those goals, particularly when it comes to personalized learning experiences?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Exploring Educational Goals",
+        "content": "What specific educational goals are you looking to achieve in the coming years? How do you see technology playing a role in reaching those goals, particularly when it comes to personalized learning experiences?",
+        "node_type": "information_gathering",
+        "difficulty": 3,
+        "generation_context": {
+          "stage_index": 1,
+          "total_stages": 5,
+          "prior_nodes_count": 4,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "We aim to cultivate critical thinking and problem-solving skills. Technology can support these goals by providing diverse learning tools and resources that cater to individual student needs.",
+              "score": 0.9,
+              "reasoning": "This response aligns educational goals with technology's role, emphasizing personalized learning.",
+              "emotional_tone": "Visionary"
+            },
+            "id": "33b68eba-d04a-4cff-85d4-cc98b19ce8c4",
+            "node_id": "20aef203-99a8-4631-99fb-1c69de235779",
+            "score": 0.9,
+            "response_text": "We aim to cultivate critical thinking and problem-solving skills. Technology can support these goals by providing diverse learning tools and resources that cater to individual student needs."
+          },
+          {
+            "meta": {
+              "response_text": "Our focus is to improve digital literacy across all grades. We see technology as a way to achieve this by integrating coding and digital citizenship into the curriculum.",
+              "score": 0.8,
+              "reasoning": "This provides specific goals and technological integration but is somewhat narrower in scope.",
+              "emotional_tone": "Focused"
+            },
+            "id": "632135a2-4f0b-4a8a-812e-f27b1a4ed0ae",
+            "node_id": "20aef203-99a8-4631-99fb-1c69de235779",
+            "score": 0.8,
+            "response_text": "Our focus is to improve digital literacy across all grades. We see technology as a way to achieve this by integrating coding and digital citizenship into the curriculum."
+          },
+          {
+            "meta": {
+              "response_text": "We haven't fully mapped out our goals but see technology as a tool for personalized learning.",
+              "score": 0.4,
+              "reasoning": "This response lacks specificity and doesn't clearly outline educational goals.",
+              "emotional_tone": "Uncertain"
+            },
+            "id": "166a7818-f294-4e43-ad9a-b7cd211b2300",
+            "node_id": "20aef203-99a8-4631-99fb-1c69de235779",
+            "score": 0.4,
+            "response_text": "We haven't fully mapped out our goals but see technology as a tool for personalized learning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+      "order_index": 2,
+      "stage_id": "4c6e0a37-f7ca-476d-915c-399ad5a90b37",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "I understand budget constraints are a significant concern. Could you share more about the financial limitations you're working with and any strategies you currently use to evaluate the ROI of new technology implementations?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Budgetary Challenges",
+        "content": "I understand budget constraints are a significant concern. Could you share more about the financial limitations you're working with and any strategies you currently use to evaluate the ROI of new technology implementations?",
+        "node_type": "information_gathering",
+        "difficulty": 3.5,
+        "generation_context": {
+          "stage_index": 1,
+          "total_stages": 5,
+          "prior_nodes_count": 5,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Our budget is limited, so we prioritize investments that demonstrate clear improvements in educational outcomes. We assess ROI by tracking student performance metrics over time.",
+              "score": 0.9,
+              "reasoning": "This response clearly outlines the budget constraints and strategies for assessing ROI.",
+              "emotional_tone": "Pragmatic"
+            },
+            "id": "a4746c65-b808-414a-9312-f17d65e1b1ed",
+            "node_id": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+            "score": 0.9,
+            "response_text": "Our budget is limited, so we prioritize investments that demonstrate clear improvements in educational outcomes. We assess ROI by tracking student performance metrics over time."
+          },
+          {
+            "meta": {
+              "response_text": "We have a tight budget, and we focus on cost-effective solutions. We evaluate ROI based on both qualitative and quantitative improvements in student engagement.",
+              "score": 0.8,
+              "reasoning": "This response provides a practical approach to budget constraints and ROI evaluation.",
+              "emotional_tone": "Analytical"
+            },
+            "id": "8eab97c9-1eae-468c-a45b-c161629a432f",
+            "node_id": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+            "score": 0.8,
+            "response_text": "We have a tight budget, and we focus on cost-effective solutions. We evaluate ROI based on both qualitative and quantitative improvements in student engagement."
+          },
+          {
+            "meta": {
+              "response_text": "Our budgetary constraints are significant, and our strategy for ROI evaluation is still developing.",
+              "score": 0.5,
+              "reasoning": "This response acknowledges constraints but lacks detail on current strategies.",
+              "emotional_tone": "Neutral"
+            },
+            "id": "278eb4ba-3938-4f34-83bf-1a5dcf7e0368",
+            "node_id": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+            "score": 0.5,
+            "response_text": "Our budgetary constraints are significant, and our strategy for ROI evaluation is still developing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "d056e8c6-2544-480c-a448-d970fccb7c25",
+      "order_index": 0,
+      "stage_id": "e9d3b5aa-21e2-4167-8ed7-0148828e0e7f",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Dr. Carter, based on our discussion about the goals for enhancing student engagement and performance, I'd like to introduce our AI sales practice software. It’s designed to simulate real-world sales scenarios, providing students with interactive and personalized learning experiences. How do you think such a tool might fit within your current curriculum and address some of the challenges you've mentioned?",
+      "node_type": "opportunity",
+      "meta": {
+        "name": "Introducing AI Sales Practice Software",
+        "content": "Dr. Carter, based on our discussion about the goals for enhancing student engagement and performance, I'd like to introduce our AI sales practice software. It’s designed to simulate real-world sales scenarios, providing students with interactive and personalized learning experiences. How do you think such a tool might fit within your current curriculum and address some of the challenges you've mentioned?",
+        "node_type": "opportunity",
+        "difficulty": 2.5,
+        "generation_context": {
+          "stage_index": 2,
+          "total_stages": 5,
+          "prior_nodes_count": 6,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "This software could be a valuable addition, especially if it aligns with our goals of enhancing practical skills and student engagement while maintaining our budget.",
+              "score": 0.9,
+              "reasoning": "The response aligns with Dr. Carter's objectives by linking the software's potential benefits with specific goals.",
+              "emotional_tone": "Interested"
+            },
+            "id": "b781b937-5134-4613-aa09-2f2a0b76a2c6",
+            "node_id": "d056e8c6-2544-480c-a448-d970fccb7c25",
+            "score": 0.9,
+            "response_text": "This software could be a valuable addition, especially if it aligns with our goals of enhancing practical skills and student engagement while maintaining our budget."
+          },
+          {
+            "meta": {
+              "response_text": "It sounds promising, particularly if it offers measurable improvements in student learning outcomes. However, we would need to evaluate its alignment with our curriculum and budget constraints.",
+              "score": 0.8,
+              "reasoning": "Shows interest while acknowledging the need for further evaluation.",
+              "emotional_tone": "Cautious"
+            },
+            "id": "06957ac3-95cf-45d9-9385-bc043f98fb99",
+            "node_id": "d056e8c6-2544-480c-a448-d970fccb7c25",
+            "score": 0.8,
+            "response_text": "It sounds promising, particularly if it offers measurable improvements in student learning outcomes. However, we would need to evaluate its alignment with our curriculum and budget constraints."
+          },
+          {
+            "meta": {
+              "response_text": "We might consider it, but we need more information on how it directly supports our curriculum.",
+              "score": 0.5,
+              "reasoning": "Interest is expressed, but the response is vague regarding integration specifics.",
+              "emotional_tone": "Neutral"
+            },
+            "id": "70288abd-434a-44ab-94bf-a8e8262572ed",
+            "node_id": "d056e8c6-2544-480c-a448-d970fccb7c25",
+            "score": 0.5,
+            "response_text": "We might consider it, but we need more information on how it directly supports our curriculum."
+          }
+        ]
+      }
+    },
+    {
+      "id": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+      "order_index": 1,
+      "stage_id": "e9d3b5aa-21e2-4167-8ed7-0148828e0e7f",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Our software incorporates adaptive learning pathways that adjust to each student's pace and learning style. This personalization could support your goal of improving learning outcomes by catering to individual student needs. What are your thoughts on incorporating adaptive technology to enhance personalized learning experiences in your school?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Highlighting Educational Benefits",
+        "content": "Our software incorporates adaptive learning pathways that adjust to each student's pace and learning style. This personalization could support your goal of improving learning outcomes by catering to individual student needs. What are your thoughts on incorporating adaptive technology to enhance personalized learning experiences in your school?",
+        "node_type": "information_gathering",
+        "difficulty": 3,
+        "generation_context": {
+          "stage_index": 2,
+          "total_stages": 5,
+          "prior_nodes_count": 7,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Incorporating adaptive technology aligns well with our goals for personalized learning, as it could help cater to diverse student needs and learning paces.",
+              "score": 0.9,
+              "reasoning": "This response directly supports Dr. Carter's objectives by emphasizing alignment with personalized learning goals.",
+              "emotional_tone": "Supportive"
+            },
+            "id": "7d19a2b0-f36b-439f-a5a5-36bafd24ebae",
+            "node_id": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+            "score": 0.9,
+            "response_text": "Incorporating adaptive technology aligns well with our goals for personalized learning, as it could help cater to diverse student needs and learning paces."
+          },
+          {
+            "meta": {
+              "response_text": "Adaptive pathways could indeed enhance our personalized learning efforts, provided they are user-friendly and offer clear benefits in terms of student performance.",
+              "score": 0.8,
+              "reasoning": "Expresses a positive view while considering practical usability and performance benefits.",
+              "emotional_tone": "Positively Cautious"
+            },
+            "id": "8a6b216f-d07e-4163-aba9-a31dd6248007",
+            "node_id": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+            "score": 0.8,
+            "response_text": "Adaptive pathways could indeed enhance our personalized learning efforts, provided they are user-friendly and offer clear benefits in terms of student performance."
+          },
+          {
+            "meta": {
+              "response_text": "Adaptive technology sounds useful, but we need to see how it would fit with our current systems.",
+              "score": 0.5,
+              "reasoning": "The response shows cautious interest but lacks detail on integration.",
+              "emotional_tone": "Reserved"
+            },
+            "id": "8418ad55-822b-42ae-b951-c55d8443b993",
+            "node_id": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+            "score": 0.5,
+            "response_text": "Adaptive technology sounds useful, but we need to see how it would fit with our current systems."
+          }
+        ]
+      }
+    },
+    {
+      "id": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+      "order_index": 2,
+      "stage_id": "e9d3b5aa-21e2-4167-8ed7-0148828e0e7f",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "I understand budget constraints are a critical concern. Our solution is competitively priced and designed to deliver measurable improvements in educational outcomes, potentially offering a high return on investment. Would you be interested in learning more about how we can tailor a package that aligns with your financial planning and demonstrates clear value?",
+      "node_type": "challenge",
+      "meta": {
+        "name": "Aligning with Budget Constraints",
+        "content": "I understand budget constraints are a critical concern. Our solution is competitively priced and designed to deliver measurable improvements in educational outcomes, potentially offering a high return on investment. Would you be interested in learning more about how we can tailor a package that aligns with your financial planning and demonstrates clear value?",
+        "node_type": "challenge",
+        "difficulty": 3.5,
+        "generation_context": {
+          "stage_index": 2,
+          "total_stages": 5,
+          "prior_nodes_count": 8,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "With budget constraints in mind, a solution offering high ROI and measurable outcomes would be highly appealing. Tailoring a package to suit our needs could be a viable path forward.",
+              "score": 0.9,
+              "reasoning": "This response aligns with Dr. Carter's objectives and constraints, expressing interest in a customized solution.",
+              "emotional_tone": "Encouraged"
+            },
+            "id": "d1b3fa06-1252-45e8-a998-d755bfbedba5",
+            "node_id": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+            "score": 0.9,
+            "response_text": "With budget constraints in mind, a solution offering high ROI and measurable outcomes would be highly appealing. Tailoring a package to suit our needs could be a viable path forward."
+          },
+          {
+            "meta": {
+              "response_text": "I'm open to learning more about your solution if it can demonstrate clear value and align with our budgetary needs.",
+              "score": 0.8,
+              "reasoning": "Expresses openness to further discussion about the solution's benefits.",
+              "emotional_tone": "Curious"
+            },
+            "id": "c752e04c-f9c6-4fdb-9e6e-ca748805ddd1",
+            "node_id": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+            "score": 0.8,
+            "response_text": "I'm open to learning more about your solution if it can demonstrate clear value and align with our budgetary needs."
+          },
+          {
+            "meta": {
+              "response_text": "Budget is a key concern, and any solution must clearly prove its value.",
+              "score": 0.5,
+              "reasoning": "The response acknowledges budget concerns but lacks proactive engagement.",
+              "emotional_tone": "Neutral"
+            },
+            "id": "e9729d45-3284-4526-bf39-7ed1a645bf84",
+            "node_id": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+            "score": 0.5,
+            "response_text": "Budget is a key concern, and any solution must clearly prove its value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+      "order_index": 0,
+      "stage_id": "24f8bed8-e193-435d-a167-d64805ce1315",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Dr. Carter, considering the budget constraints you've mentioned, I'd like to discuss some flexible payment options we offer. How does a phased payment plan that aligns with your fiscal year sound to you?",
+      "node_type": "opportunity",
+      "meta": {
+        "name": "Exploring Flexible Payment Options",
+        "content": "Dr. Carter, considering the budget constraints you've mentioned, I'd like to discuss some flexible payment options we offer. How does a phased payment plan that aligns with your fiscal year sound to you?",
+        "node_type": "opportunity",
+        "difficulty": 3,
+        "generation_context": {
+          "stage_index": 3,
+          "total_stages": 5,
+          "prior_nodes_count": 9,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "A phased payment plan could be a practical solution to align with our fiscal limitations, allowing us to gradually integrate the technology.",
+              "score": 0.9,
+              "reasoning": "Shows openness to flexible financial solutions that address budget constraints.",
+              "emotional_tone": "Optimistic"
+            },
+            "id": "459b8ed8-6e91-41a7-a967-5d662c637f30",
+            "node_id": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+            "score": 0.9,
+            "response_text": "A phased payment plan could be a practical solution to align with our fiscal limitations, allowing us to gradually integrate the technology."
+          },
+          {
+            "meta": {
+              "response_text": "Considering our budget constraints, phased payment options may offer a viable way to integrate new technologies without immediate financial strain.",
+              "score": 0.8,
+              "reasoning": "Addresses budget concerns and considers phased payments as a potential solution.",
+              "emotional_tone": "Pragmatic"
+            },
+            "id": "bacf53f4-b085-44a4-a55d-417953a2a6de",
+            "node_id": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+            "score": 0.8,
+            "response_text": "Considering our budget constraints, phased payment options may offer a viable way to integrate new technologies without immediate financial strain."
+          },
+          {
+            "meta": {
+              "response_text": "Phased payments might help, but we'll need to ensure it fits within our overall financial strategy.",
+              "score": 0.6,
+              "reasoning": "Open to discussion but highlights the need for careful financial planning.",
+              "emotional_tone": "Cautious"
+            },
+            "id": "c2660a86-b7ed-4a2d-995c-81d3880a98bd",
+            "node_id": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+            "score": 0.6,
+            "response_text": "Phased payments might help, but we'll need to ensure it fits within our overall financial strategy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+      "order_index": 1,
+      "stage_id": "24f8bed8-e193-435d-a167-d64805ce1315",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "I understand the importance of making every dollar count. Could we explore how the projected improvements in student engagement and performance might justify the initial investment?",
+      "node_type": "challenge",
+      "meta": {
+        "name": "Evaluating Cost vs. Educational Impact",
+        "content": "I understand the importance of making every dollar count. Could we explore how the projected improvements in student engagement and performance might justify the initial investment?",
+        "node_type": "challenge",
+        "difficulty": 3.5,
+        "generation_context": {
+          "stage_index": 3,
+          "total_stages": 5,
+          "prior_nodes_count": 10,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Absolutely, understanding the potential for improvement is crucial. We should critically analyze the data to ensure that the anticipated benefits outweigh the costs.",
+              "score": 0.8,
+              "reasoning": "This response acknowledges the importance of data analysis, aligning with my analytical and detail-oriented communication style, while emphasizing the need for evidence-based decisions.",
+              "emotional_tone": "Encouraging"
+            },
+            "id": "d92a1877-f22c-4b8e-8fd6-be948a5438be",
+            "node_id": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+            "score": 0.8,
+            "response_text": "Absolutely, understanding the potential for improvement is crucial. We should critically analyze the data to ensure that the anticipated benefits outweigh the costs."
+          },
+          {
+            "meta": {
+              "response_text": "While it's important to consider potential improvements, we should ensure that the investment is justified within our current budget constraints.",
+              "score": 0.5,
+              "reasoning": "This response demonstrates a balanced approach, recognizing both the potential benefits and the financial limitations, but lacks a strong commitment to action.",
+              "emotional_tone": "Pragmatic"
+            },
+            "id": "78236957-97c3-4c4d-8e03-5b4af0327cda",
+            "node_id": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+            "score": 0.5,
+            "response_text": "While it's important to consider potential improvements, we should ensure that the investment is justified within our current budget constraints."
+          },
+          {
+            "meta": {
+              "response_text": "Focusing on potential improvements is great, but without clear evidence of financial viability, it might be risky to proceed.",
+              "score": 0.2,
+              "reasoning": "This response is overly cautious and doesn't align with my open-minded personality, potentially stalling progress.",
+              "emotional_tone": "Cautious"
+            },
+            "id": "aaaa7a54-d9a8-4fe5-a743-1fd859fb8d82",
+            "node_id": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+            "score": 0.2,
+            "response_text": "Focusing on potential improvements is great, but without clear evidence of financial viability, it might be risky to proceed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+      "order_index": 2,
+      "stage_id": "24f8bed8-e193-435d-a167-d64805ce1315",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Let's consider customizing the software package to fit your budget. Are there specific features or functionalities you see as absolutely essential, and others that could be optional for now?",
+      "node_type": "decision_point",
+      "meta": {
+        "name": "Aligning Software Features with Budget",
+        "content": "Let's consider customizing the software package to fit your budget. Are there specific features or functionalities you see as absolutely essential, and others that could be optional for now?",
+        "node_type": "decision_point",
+        "difficulty": 3.8,
+        "generation_context": {
+          "stage_index": 3,
+          "total_stages": 5,
+          "prior_nodes_count": 11,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Customizing the software is a smart approach. Let's prioritize the essential features that directly support our educational goals.",
+              "score": 0.9,
+              "reasoning": "This response is collaborative and solution-focused, reflecting my commitment to aligning technology with educational objectives.",
+              "emotional_tone": "Collaborative"
+            },
+            "id": "3967454a-3331-48f6-bdf8-d619a6c9998e",
+            "node_id": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+            "score": 0.9,
+            "response_text": "Customizing the software is a smart approach. Let's prioritize the essential features that directly support our educational goals."
+          },
+          {
+            "meta": {
+              "response_text": "Focusing on essential features is sensible. However, we should be mindful of potential future needs when considering optional functionalities.",
+              "score": 0.6,
+              "reasoning": "This response acknowledges immediate priorities while considering long-term planning, though it is less decisive.",
+              "emotional_tone": "Thoughtful"
+            },
+            "id": "d7408c06-82d9-42c1-b764-ec537e7f2eea",
+            "node_id": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+            "score": 0.6,
+            "response_text": "Focusing on essential features is sensible. However, we should be mindful of potential future needs when considering optional functionalities."
+          },
+          {
+            "meta": {
+              "response_text": "It's possible to customize, but without understanding the full range of functionalities, we might miss out on beneficial features.",
+              "score": 0.3,
+              "reasoning": "This response introduces uncertainty, which contrasts with my preference for data-backed decisions.",
+              "emotional_tone": "Hesitant"
+            },
+            "id": "d8f3656d-5e3c-4b99-9214-4aed02b33c7a",
+            "node_id": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+            "score": 0.3,
+            "response_text": "It's possible to customize, but without understanding the full range of functionalities, we might miss out on beneficial features."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+      "order_index": 0,
+      "stage_id": "af1db66f-19eb-46b7-995c-419344ee89ee",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Dr. Carter, I can share case studies from similar schools that have implemented our software and achieved notable improvements in student engagement and learning outcomes. Would seeing these examples help you feel more confident about the investment?",
+      "node_type": "opportunity",
+      "meta": {
+        "name": "Highlighting Proven Outcomes",
+        "content": "Dr. Carter, I can share case studies from similar schools that have implemented our software and achieved notable improvements in student engagement and learning outcomes. Would seeing these examples help you feel more confident about the investment?",
+        "node_type": "opportunity",
+        "difficulty": 3,
+        "generation_context": {
+          "stage_index": 4,
+          "total_stages": 5,
+          "prior_nodes_count": 12,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Reviewing case studies of similar schools could provide valuable insights into the potential impact on our students.",
+              "score": 0.85,
+              "reasoning": "This response aligns with my analytical nature and appreciation for evidence-based decision-making.",
+              "emotional_tone": "Optimistic"
+            },
+            "id": "c156946c-97dd-4d60-abc7-843ab62df178",
+            "node_id": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+            "score": 0.85,
+            "response_text": "Reviewing case studies of similar schools could provide valuable insights into the potential impact on our students."
+          },
+          {
+            "meta": {
+              "response_text": "While case studies are helpful, we should also consider our unique context to accurately predict the software's effectiveness here.",
+              "score": 0.6,
+              "reasoning": "This response balances the value of external examples with the need for context-specific analysis.",
+              "emotional_tone": "Balanced"
+            },
+            "id": "769f394b-eed7-4fca-ab8b-3c1cfaecc2ed",
+            "node_id": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+            "score": 0.6,
+            "response_text": "While case studies are helpful, we should also consider our unique context to accurately predict the software's effectiveness here."
+          },
+          {
+            "meta": {
+              "response_text": "Case studies alone may not fully convince me, as each school has its own set of challenges and resources.",
+              "score": 0.2,
+              "reasoning": "This response is skeptical and may appear dismissive of potentially useful evidence.",
+              "emotional_tone": "Skeptical"
+            },
+            "id": "68cfe051-b5f8-4add-842f-8400d81d1342",
+            "node_id": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+            "score": 0.2,
+            "response_text": "Case studies alone may not fully convince me, as each school has its own set of challenges and resources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "order_index": 1,
+      "stage_id": "af1db66f-19eb-46b7-995c-419344ee89ee",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "To ensure the software truly meets your needs, we can tailor it to align with your specific educational goals and budget constraints. What key outcomes are you most focused on that we should prioritize?",
+      "node_type": "decision_point",
+      "meta": {
+        "name": "Exploring Customization for Fit",
+        "content": "To ensure the software truly meets your needs, we can tailor it to align with your specific educational goals and budget constraints. What key outcomes are you most focused on that we should prioritize?",
+        "node_type": "decision_point",
+        "difficulty": 3.5,
+        "generation_context": {
+          "stage_index": 4,
+          "total_stages": 5,
+          "prior_nodes_count": 13,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Aligning the software with our goals and constraints is imperative. Our focus should be on improving student engagement and performance.",
+              "score": 0.9,
+              "reasoning": "This response is focused and aligns closely with my objectives of enhancing educational outcomes.",
+              "emotional_tone": "Determined"
+            },
+            "id": "6f9e208c-084d-48a4-86fb-5f8beae338a5",
+            "node_id": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+            "score": 0.9,
+            "response_text": "Aligning the software with our goals and constraints is imperative. Our focus should be on improving student engagement and performance."
+          },
+          {
+            "meta": {
+              "response_text": "We should outline our key outcomes clearly, ensuring that the software supports our primary educational objectives.",
+              "score": 0.7,
+              "reasoning": "This response emphasizes the need for clarity and alignment but is slightly less directive.",
+              "emotional_tone": "Focused"
+            },
+            "id": "0c074007-463f-4bfd-be63-486a310def81",
+            "node_id": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+            "score": 0.7,
+            "response_text": "We should outline our key outcomes clearly, ensuring that the software supports our primary educational objectives."
+          },
+          {
+            "meta": {
+              "response_text": "I'm concerned that without careful planning, we might face misalignment with our goals.",
+              "score": 0.3,
+              "reasoning": "This response introduces doubt and may hinder constructive collaboration.",
+              "emotional_tone": "Apprehensive"
+            },
+            "id": "02f55561-e7e2-4999-a286-6c7c4d8cc6a0",
+            "node_id": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+            "score": 0.3,
+            "response_text": "I'm concerned that without careful planning, we might face misalignment with our goals."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "order_index": 2,
+      "stage_id": "af1db66f-19eb-46b7-995c-419344ee89ee",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "We offer comprehensive support and training to ensure a smooth integration into your existing systems. How important is ongoing support and training for your team when considering new software?",
+      "node_type": "information_gathering",
+      "meta": {
+        "name": "Providing Assurance with Support",
+        "content": "We offer comprehensive support and training to ensure a smooth integration into your existing systems. How important is ongoing support and training for your team when considering new software?",
+        "node_type": "information_gathering",
+        "difficulty": 3.2,
+        "generation_context": {
+          "stage_index": 4,
+          "total_stages": 5,
+          "prior_nodes_count": 14,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Ongoing support and training are crucial to ensure effective implementation and utilization of new software.",
+              "score": 0.85,
+              "reasoning": "This response recognizes the importance of support in achieving successful technology integration.",
+              "emotional_tone": "Supportive"
+            },
+            "id": "4872b008-cc21-48ad-92cb-7cb1f1b1d8ac",
+            "node_id": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+            "score": 0.85,
+            "response_text": "Ongoing support and training are crucial to ensure effective implementation and utilization of new software."
+          },
+          {
+            "meta": {
+              "response_text": "While support and training are important, we must weigh their necessity against our budget limitations.",
+              "score": 0.6,
+              "reasoning": "This response underscores a pragmatic approach by weighing support against financial constraints.",
+              "emotional_tone": "Practical"
+            },
+            "id": "7b0dd727-a678-45f4-b9b5-7040559800e8",
+            "node_id": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+            "score": 0.6,
+            "response_text": "While support and training are important, we must weigh their necessity against our budget limitations."
+          },
+          {
+            "meta": {
+              "response_text": "We might manage without extensive support if our staff is tech-savvy, though this could be risky.",
+              "score": 0.3,
+              "reasoning": "This response downplays the need for support, which may not align with my focus on successful integration.",
+              "emotional_tone": "Cautious"
+            },
+            "id": "5e69d9f6-8309-4120-b043-7cd225e790ae",
+            "node_id": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+            "score": 0.3,
+            "response_text": "We might manage without extensive support if our staff is tech-savvy, though this could be risky."
+          }
+        ]
+      }
+    },
+    {
+      "id": "611b0322-426f-4d39-9836-958e7f5075ce",
+      "order_index": 3,
+      "stage_id": "af1db66f-19eb-46b7-995c-419344ee89ee",
+      "is_gateway": false,
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "required_for_progression": true,
+      "content": "Based on everything we've discussed, it sounds like our AI sales practice software could be a great fit for enhancing your educational offerings. Are you ready to move forward with a trial or a pilot program to see its impact firsthand?",
+      "node_type": "reaction",
+      "meta": {
+        "name": "Summarizing and Seeking Commitment",
+        "content": "Based on everything we've discussed, it sounds like our AI sales practice software could be a great fit for enhancing your educational offerings. Are you ready to move forward with a trial or a pilot program to see its impact firsthand?",
+        "node_type": "reaction",
+        "difficulty": 4,
+        "generation_context": {
+          "stage_index": 4,
+          "total_stages": 5,
+          "prior_nodes_count": 15,
+          "flow_scenario": [
+            "\"SPIN selling AI sales software to a budget-conscious state school administrator\"",
+            "5bebd2e0-5ecb-4b0f-8480-85b067406614"
+          ]
+        },
+        "responses": [
+          {
+            "meta": {
+              "response_text": "Before committing, let's thoroughly assess the potential impact and ensure alignment with our educational goals.",
+              "score": 0.8,
+              "reasoning": "This response encourages careful evaluation without prematurely agreeing to a trial, reflecting my analytical nature.",
+              "emotional_tone": "Considerate"
+            },
+            "id": "e4d182eb-c5d4-4378-b7a6-e0ee5192e605",
+            "node_id": "611b0322-426f-4d39-9836-958e7f5075ce",
+            "score": 0.8,
+            "response_text": "Before committing, let's thoroughly assess the potential impact and ensure alignment with our educational goals."
+          },
+          {
+            "meta": {
+              "response_text": "A trial could be beneficial, but we must be fully aware of all implications and expected outcomes.",
+              "score": 0.6,
+              "reasoning": "This response suggests cautious optimism, highlighting the need for clarity and understanding.",
+              "emotional_tone": "Cautiously optimistic"
+            },
+            "id": "b1d6ef80-938b-4980-9ee2-e84819b09340",
+            "node_id": "611b0322-426f-4d39-9836-958e7f5075ce",
+            "score": 0.6,
+            "response_text": "A trial could be beneficial, but we must be fully aware of all implications and expected outcomes."
+          },
+          {
+            "meta": {
+              "response_text": "I'm hesitant to proceed with a trial until we have more concrete evidence supporting its benefits.",
+              "score": 0.3,
+              "reasoning": "This response is overly cautious and may delay potential opportunities for innovation.",
+              "emotional_tone": "Skeptical"
+            },
+            "id": "447ec1aa-78d1-4b29-b45e-dbcaae171461",
+            "node_id": "611b0322-426f-4d39-9836-958e7f5075ce",
+            "score": 0.3,
+            "response_text": "I'm hesitant to proceed with a trial until we have more concrete evidence supporting its benefits."
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "label": "Switch topic within stage 0",
+      "id": "616a4f5d-6fec-48fe-b2f2-7562bf6cb3d1",
+      "to_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+      "condition": "Topic switch from Understanding Current Technological Implementations to Exploring Educational Goals and Technology Needs",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Understanding Current Technological Implementations to Exploring Educational Goals and Technology Needs",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "8ae0dd62-a2b0-4837-92c1-5996262ec582"
+    },
+    {
+      "label": "Switch topic within stage 0",
+      "id": "7a444744-ebc3-4192-a3c3-284204165ab0",
+      "to_node": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+      "condition": "Topic switch from Understanding Current Technological Implementations to Warm Welcome and Establishing Connection",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Understanding Current Technological Implementations to Warm Welcome and Establishing Connection",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "8ae0dd62-a2b0-4837-92c1-5996262ec582"
+    },
+    {
+      "label": "Switch topic within stage 0",
+      "id": "a092bf1d-ce18-4f07-ad42-e1e0d53e6918",
+      "to_node": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+      "condition": "Topic switch from Exploring Educational Goals and Technology Needs to Understanding Current Technological Implementations",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Exploring Educational Goals and Technology Needs to Understanding Current Technological Implementations",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b"
+    },
+    {
+      "label": "Switch topic within stage 0",
+      "id": "dae82f82-17d5-4a01-a64d-38eeb382241f",
+      "to_node": "d0d0aa53-32b3-4048-871e-d79bda75ab52",
+      "condition": "Topic switch from Exploring Educational Goals and Technology Needs to Warm Welcome and Establishing Connection",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Exploring Educational Goals and Technology Needs to Warm Welcome and Establishing Connection",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b"
+    },
+    {
+      "label": "Switch topic within stage 0",
+      "id": "32cc4b1b-58d3-45d3-9a72-1050ba913ca7",
+      "to_node": "8ae0dd62-a2b0-4837-92c1-5996262ec582",
+      "condition": "Topic switch from Warm Welcome and Establishing Connection to Understanding Current Technological Implementations",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Warm Welcome and Establishing Connection to Understanding Current Technological Implementations",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d0d0aa53-32b3-4048-871e-d79bda75ab52"
+    },
+    {
+      "label": "Switch topic within stage 0",
+      "id": "63a17098-3b34-4fc5-a52c-8437c4f1a395",
+      "to_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b",
+      "condition": "Topic switch from Warm Welcome and Establishing Connection to Exploring Educational Goals and Technology Needs",
+      "meta": {
+        "label": "Switch topic within stage 0",
+        "condition": "Topic switch from Warm Welcome and Establishing Connection to Exploring Educational Goals and Technology Needs",
+        "edge_type": "intra_stage",
+        "stage": 0
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d0d0aa53-32b3-4048-871e-d79bda75ab52"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "e10f0c9a-1a45-4bd1-b783-4237e8dad9fe",
+      "to_node": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+      "condition": "Topic switch from Exploring Educational Goals to Budgetary Challenges",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Exploring Educational Goals to Budgetary Challenges",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "20aef203-99a8-4631-99fb-1c69de235779"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "37e8bc76-a14d-42ef-b2dc-dc6161544aa3",
+      "to_node": "f3e525cd-22a8-42a8-afb5-734277088b20",
+      "condition": "Topic switch from Exploring Educational Goals to Understanding Current Solutions",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Exploring Educational Goals to Understanding Current Solutions",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "20aef203-99a8-4631-99fb-1c69de235779"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "7fff6ea9-d757-4f5f-b79d-20a22802b900",
+      "to_node": "20aef203-99a8-4631-99fb-1c69de235779",
+      "condition": "Topic switch from Budgetary Challenges to Exploring Educational Goals",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Budgetary Challenges to Exploring Educational Goals",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "96e3d26b-492d-4d95-9184-e0e5629358f1"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "8c0ab1c7-7e3f-4344-928f-c0ae6cb705b0",
+      "to_node": "f3e525cd-22a8-42a8-afb5-734277088b20",
+      "condition": "Topic switch from Budgetary Challenges to Understanding Current Solutions",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Budgetary Challenges to Understanding Current Solutions",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "96e3d26b-492d-4d95-9184-e0e5629358f1"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "c101c61c-b509-4376-aa95-60adf15c344a",
+      "to_node": "20aef203-99a8-4631-99fb-1c69de235779",
+      "condition": "Topic switch from Understanding Current Solutions to Exploring Educational Goals",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Understanding Current Solutions to Exploring Educational Goals",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f3e525cd-22a8-42a8-afb5-734277088b20"
+    },
+    {
+      "label": "Switch topic within stage 1",
+      "id": "3d59d3ea-57d3-4b46-84fa-66effdfce8ec",
+      "to_node": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+      "condition": "Topic switch from Understanding Current Solutions to Budgetary Challenges",
+      "meta": {
+        "label": "Switch topic within stage 1",
+        "condition": "Topic switch from Understanding Current Solutions to Budgetary Challenges",
+        "edge_type": "intra_stage",
+        "stage": 1
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f3e525cd-22a8-42a8-afb5-734277088b20"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "58e20537-7f3f-4c9d-9b56-f72396e48562",
+      "to_node": "d056e8c6-2544-480c-a448-d970fccb7c25",
+      "condition": "Topic switch from Aligning with Budget Constraints to Introducing AI Sales Practice Software",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Aligning with Budget Constraints to Introducing AI Sales Practice Software",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "f6b867e7-90a7-4e4a-bf95-e07dd5dc852d",
+      "to_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+      "condition": "Topic switch from Aligning with Budget Constraints to Highlighting Educational Benefits",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Aligning with Budget Constraints to Highlighting Educational Benefits",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "7f341280-2914-4161-b854-806733b2a635",
+      "to_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+      "condition": "Topic switch from Introducing AI Sales Practice Software to Aligning with Budget Constraints",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Introducing AI Sales Practice Software to Aligning with Budget Constraints",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d056e8c6-2544-480c-a448-d970fccb7c25"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "f54211f7-ebb2-48a9-912d-bd82970b7dc2",
+      "to_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+      "condition": "Topic switch from Introducing AI Sales Practice Software to Highlighting Educational Benefits",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Introducing AI Sales Practice Software to Highlighting Educational Benefits",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d056e8c6-2544-480c-a448-d970fccb7c25"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "c055fd13-8b89-472f-9bbd-dd7aa1eebcda",
+      "to_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+      "condition": "Topic switch from Highlighting Educational Benefits to Aligning with Budget Constraints",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Highlighting Educational Benefits to Aligning with Budget Constraints",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0"
+    },
+    {
+      "label": "Switch topic within stage 2",
+      "id": "afa76558-4952-44d0-a89c-cb23b7eff08a",
+      "to_node": "d056e8c6-2544-480c-a448-d970fccb7c25",
+      "condition": "Topic switch from Highlighting Educational Benefits to Introducing AI Sales Practice Software",
+      "meta": {
+        "label": "Switch topic within stage 2",
+        "condition": "Topic switch from Highlighting Educational Benefits to Introducing AI Sales Practice Software",
+        "edge_type": "intra_stage",
+        "stage": 2
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "b05e2134-e75c-4a40-bf50-cc60d54a8484",
+      "to_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+      "condition": "Topic switch from Aligning Software Features with Budget to Evaluating Cost vs. Educational Impact",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Aligning Software Features with Budget to Evaluating Cost vs. Educational Impact",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "b5365d0d-9009-44ef-a038-971f85be4137",
+      "to_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+      "condition": "Topic switch from Aligning Software Features with Budget to Exploring Flexible Payment Options",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Aligning Software Features with Budget to Exploring Flexible Payment Options",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "bfc29f70-1a72-4d97-ad2f-867e54c98795",
+      "to_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+      "condition": "Topic switch from Evaluating Cost vs. Educational Impact to Aligning Software Features with Budget",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Evaluating Cost vs. Educational Impact to Aligning Software Features with Budget",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "3911e0d0-5fea-495f-8e99-7230a5d4a5d7",
+      "to_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+      "condition": "Topic switch from Evaluating Cost vs. Educational Impact to Exploring Flexible Payment Options",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Evaluating Cost vs. Educational Impact to Exploring Flexible Payment Options",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "5ba1297a-f6cd-4fdb-a17c-e796dd1a5e5f",
+      "to_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+      "condition": "Topic switch from Exploring Flexible Payment Options to Aligning Software Features with Budget",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Exploring Flexible Payment Options to Aligning Software Features with Budget",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9"
+    },
+    {
+      "label": "Switch topic within stage 3",
+      "id": "8c8f73eb-0037-4617-9530-28317c8a00eb",
+      "to_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+      "condition": "Topic switch from Exploring Flexible Payment Options to Evaluating Cost vs. Educational Impact",
+      "meta": {
+        "label": "Switch topic within stage 3",
+        "condition": "Topic switch from Exploring Flexible Payment Options to Evaluating Cost vs. Educational Impact",
+        "edge_type": "intra_stage",
+        "stage": 3
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "43c35a13-06ed-4e97-8ccf-a556f8565a4f",
+      "to_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "condition": "Topic switch from Summarizing and Seeking Commitment to Providing Assurance with Support",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Summarizing and Seeking Commitment to Providing Assurance with Support",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "611b0322-426f-4d39-9836-958e7f5075ce"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "dcc65db3-a05b-450d-b4a5-9d4e4b5696fa",
+      "to_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "condition": "Topic switch from Summarizing and Seeking Commitment to Exploring Customization for Fit",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Summarizing and Seeking Commitment to Exploring Customization for Fit",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "611b0322-426f-4d39-9836-958e7f5075ce"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "3b81d4f7-7c74-4c94-9c64-05a2c01aebf6",
+      "to_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+      "condition": "Topic switch from Summarizing and Seeking Commitment to Highlighting Proven Outcomes",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Summarizing and Seeking Commitment to Highlighting Proven Outcomes",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "611b0322-426f-4d39-9836-958e7f5075ce"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "4072b350-eca7-4785-a538-44bfe2fe650b",
+      "to_node": "611b0322-426f-4d39-9836-958e7f5075ce",
+      "condition": "Topic switch from Providing Assurance with Support to Summarizing and Seeking Commitment",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Providing Assurance with Support to Summarizing and Seeking Commitment",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "efe5f973-368e-4915-9213-33e46e74ebf8",
+      "to_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "condition": "Topic switch from Providing Assurance with Support to Exploring Customization for Fit",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Providing Assurance with Support to Exploring Customization for Fit",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "462b6468-3274-465b-a41c-f476be160db8",
+      "to_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+      "condition": "Topic switch from Providing Assurance with Support to Highlighting Proven Outcomes",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Providing Assurance with Support to Highlighting Proven Outcomes",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "2fdc6c5c-e427-4a57-9645-8996bb552bfd",
+      "to_node": "611b0322-426f-4d39-9836-958e7f5075ce",
+      "condition": "Topic switch from Exploring Customization for Fit to Summarizing and Seeking Commitment",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Exploring Customization for Fit to Summarizing and Seeking Commitment",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "056055a1-3576-4486-b910-10864063c974",
+      "to_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "condition": "Topic switch from Exploring Customization for Fit to Providing Assurance with Support",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Exploring Customization for Fit to Providing Assurance with Support",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "cb3db942-01bd-4df1-869e-a2df82963a86",
+      "to_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+      "condition": "Topic switch from Exploring Customization for Fit to Highlighting Proven Outcomes",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Exploring Customization for Fit to Highlighting Proven Outcomes",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "21eb479f-d5e8-47e6-bf70-4fd30dd2b5b7",
+      "to_node": "611b0322-426f-4d39-9836-958e7f5075ce",
+      "condition": "Topic switch from Highlighting Proven Outcomes to Summarizing and Seeking Commitment",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Highlighting Proven Outcomes to Summarizing and Seeking Commitment",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "671cc6fc-7b4f-497e-925f-89014a306689",
+      "to_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "condition": "Topic switch from Highlighting Proven Outcomes to Providing Assurance with Support",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Highlighting Proven Outcomes to Providing Assurance with Support",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe"
+    },
+    {
+      "label": "Switch topic within stage 4",
+      "id": "d5820a52-ef10-45e1-8b30-1c1414bd57af",
+      "to_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "condition": "Topic switch from Highlighting Proven Outcomes to Exploring Customization for Fit",
+      "meta": {
+        "label": "Switch topic within stage 4",
+        "condition": "Topic switch from Highlighting Proven Outcomes to Exploring Customization for Fit",
+        "edge_type": "intra_stage",
+        "stage": 4
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe"
+    },
+    {
+      "label": "Stage 0 → 1 progression",
+      "id": "1e5c1a06-df67-4bef-8a59-906260ad84bc",
+      "to_node": "f3e525cd-22a8-42a8-afb5-734277088b20",
+      "condition": "",
+      "meta": {
+        "label": "Stage 0 → 1 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.9,
+        "reasoning": "Understanding current technological implementations naturally leads to understanding current solutions, as it involves evaluating existing technologies and their effectiveness.",
+        "from_stage": 0,
+        "to_stage": 1,
+        "parent_tag": "65a2b813-45ba-4611-85b5-550a13961905"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "8ae0dd62-a2b0-4837-92c1-5996262ec582"
+    },
+    {
+      "label": "Stage 0 → 1 progression",
+      "id": "2c29c571-71b6-4c59-aa8f-a2c27fdbe207",
+      "to_node": "20aef203-99a8-4631-99fb-1c69de235779",
+      "condition": "",
+      "meta": {
+        "label": "Stage 0 → 1 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.85,
+        "reasoning": "Exploring educational goals and technology needs directly transitions into exploring educational goals in more detail, ensuring continuity in the conversation about objectives.",
+        "from_stage": 0,
+        "to_stage": 1,
+        "parent_tag": "65a2b813-45ba-4611-85b5-550a13961905"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b"
+    },
+    {
+      "label": "Stage 0 → 1 progression",
+      "id": "61acb918-e417-493d-90a1-86d18de13a16",
+      "to_node": "96e3d26b-492d-4d95-9184-e0e5629358f1",
+      "condition": "",
+      "meta": {
+        "label": "Stage 0 → 1 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.75,
+        "reasoning": "Discussing educational goals and technology needs often brings up budgetary challenges, making it a logical next step in the conversation.",
+        "from_stage": 0,
+        "to_stage": 1,
+        "parent_tag": "65a2b813-45ba-4611-85b5-550a13961905"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "ad684e8f-8f9b-4b3b-8811-4012112a641b"
+    },
+    {
+      "label": "Stage 0 → 1 progression",
+      "id": "cf8c0c89-189f-4f36-92e1-c73cf82b50e0",
+      "to_node": "20aef203-99a8-4631-99fb-1c69de235779",
+      "condition": "",
+      "meta": {
+        "label": "Stage 0 → 1 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.7,
+        "reasoning": "After a warm welcome and establishing connection, it is natural to delve into understanding the educational goals, as it sets the stage for a more focused discussion.",
+        "from_stage": 0,
+        "to_stage": 1,
+        "parent_tag": "65a2b813-45ba-4611-85b5-550a13961905"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d0d0aa53-32b3-4048-871e-d79bda75ab52"
+    },
+    {
+      "label": "Stage 1 → 2 progression",
+      "id": "48b0b61a-e6fc-4605-922a-372e1ec20535",
+      "to_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0",
+      "condition": "",
+      "meta": {
+        "label": "Stage 1 → 2 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.9,
+        "reasoning": "Exploring educational goals naturally leads to highlighting educational benefits, as understanding the goals sets the stage for discussing how the proposed solutions can meet those goals.",
+        "from_stage": 1,
+        "to_stage": 2,
+        "parent_tag": "4dcca604-34af-48b7-a620-a50c0cb870fa"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "20aef203-99a8-4631-99fb-1c69de235779"
+    },
+    {
+      "label": "Stage 1 → 2 progression",
+      "id": "bcb89dc5-1848-4c6f-972b-9675882bee37",
+      "to_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b",
+      "condition": "",
+      "meta": {
+        "label": "Stage 1 → 2 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.95,
+        "reasoning": "Budgetary challenges directly relate to aligning with budget constraints, as the conversation would logically progress from identifying challenges to discussing how to work within those constraints.",
+        "from_stage": 1,
+        "to_stage": 2,
+        "parent_tag": "4dcca604-34af-48b7-a620-a50c0cb870fa"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "96e3d26b-492d-4d95-9184-e0e5629358f1"
+    },
+    {
+      "label": "Stage 1 → 2 progression",
+      "id": "1ef1c3c1-4d87-45ba-ad2a-35542ffbc8da",
+      "to_node": "d056e8c6-2544-480c-a448-d970fccb7c25",
+      "condition": "",
+      "meta": {
+        "label": "Stage 1 → 2 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.8,
+        "reasoning": "After discussing budgetary challenges, introducing AI sales practice software can be relevant if the software offers cost-effective solutions, thus addressing budget concerns.",
+        "from_stage": 1,
+        "to_stage": 2,
+        "parent_tag": "4dcca604-34af-48b7-a620-a50c0cb870fa"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "96e3d26b-492d-4d95-9184-e0e5629358f1"
+    },
+    {
+      "label": "Stage 1 → 2 progression",
+      "id": "fc8d877f-7ba5-4912-95a1-27bfc47cd896",
+      "to_node": "d056e8c6-2544-480c-a448-d970fccb7c25",
+      "condition": "",
+      "meta": {
+        "label": "Stage 1 → 2 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.85,
+        "reasoning": "Understanding current solutions sets the stage for introducing new solutions, such as AI sales practice software, by providing context on how the new solution improves or complements existing ones.",
+        "from_stage": 1,
+        "to_stage": 2,
+        "parent_tag": "4dcca604-34af-48b7-a620-a50c0cb870fa"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f3e525cd-22a8-42a8-afb5-734277088b20"
+    },
+    {
+      "label": "Stage 2 → 3 progression",
+      "id": "f7061bc4-8ac6-4bcf-9782-ae7b654e3c0f",
+      "to_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7",
+      "condition": "",
+      "meta": {
+        "label": "Stage 2 → 3 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.9,
+        "reasoning": "Aligning with budget constraints naturally progresses to discussing how software features align with those budget constraints, ensuring the conversation stays focused on financial considerations.",
+        "from_stage": 2,
+        "to_stage": 3,
+        "parent_tag": "074e61e8-636a-46a8-9f55-f490a5b6019d"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b"
+    },
+    {
+      "label": "Stage 2 → 3 progression",
+      "id": "cffc4935-3d74-481b-81a4-c1aaaaf7195f",
+      "to_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9",
+      "condition": "",
+      "meta": {
+        "label": "Stage 2 → 3 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.8,
+        "reasoning": "After discussing budget constraints, exploring flexible payment options is a logical next step to address potential financial barriers.",
+        "from_stage": 2,
+        "to_stage": 3,
+        "parent_tag": "074e61e8-636a-46a8-9f55-f490a5b6019d"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "1e472c96-9fdf-44ba-8334-f554c6b40f9b"
+    },
+    {
+      "label": "Stage 2 → 3 progression",
+      "id": "52a4178f-3fdf-4a65-8e88-c75783c3391e",
+      "to_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+      "condition": "",
+      "meta": {
+        "label": "Stage 2 → 3 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.85,
+        "reasoning": "Introducing AI sales practice software leads naturally to evaluating its cost against the educational impact it can provide, maintaining a focus on value assessment.",
+        "from_stage": 2,
+        "to_stage": 3,
+        "parent_tag": "074e61e8-636a-46a8-9f55-f490a5b6019d"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "d056e8c6-2544-480c-a448-d970fccb7c25"
+    },
+    {
+      "label": "Stage 2 → 3 progression",
+      "id": "2eecbf26-1196-4d2c-ad59-19e35156c9c3",
+      "to_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d",
+      "condition": "",
+      "meta": {
+        "label": "Stage 2 → 3 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.9,
+        "reasoning": "Highlighting educational benefits should be followed by evaluating the cost versus the educational impact, ensuring that the benefits are weighed against financial considerations.",
+        "from_stage": 2,
+        "to_stage": 3,
+        "parent_tag": "074e61e8-636a-46a8-9f55-f490a5b6019d"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "f5d53759-3658-4ba1-89a2-2a2eb67a5ca0"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "ca08bc7a-21ac-4faa-8398-68f2b357037e",
+      "to_node": "611b0322-426f-4d39-9836-958e7f5075ce",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.8,
+        "reasoning": "After aligning software features with the budget, it is natural to summarize the discussion and seek a commitment to move forward.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "e9bdf04d-326a-48de-87d5-b3c8babdd2a1",
+      "to_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.7,
+        "reasoning": "Once features are aligned with the budget, exploring customization options can ensure the solution fits the specific needs.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "557af1bb-f0dc-46c4-a5bd-78343f0376f7"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "129fd17e-f1a3-43bd-b313-831ad210e6e2",
+      "to_node": "fcbc95f5-23a4-4715-a43a-e4e8508199fe",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.9,
+        "reasoning": "Evaluating cost versus educational impact naturally leads to highlighting proven outcomes to justify the investment.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "09e8ff58-decc-46bb-ab32-69b310dcc600",
+      "to_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.6,
+        "reasoning": "Providing assurance with support can help address concerns about educational impact and cost, reinforcing the decision.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "b338acc6-ed80-4f2f-aa86-9643e105d69d"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "7fee385c-a0ab-4fbf-ac2b-8a44c82960e8",
+      "to_node": "6c6d24e3-31c9-44c7-a382-7166fb38ab02",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.85,
+        "reasoning": "Exploring flexible payment options often requires assurance that support will be available, making the investment more appealing.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9"
+    },
+    {
+      "label": "Stage 3 → 4 progression",
+      "id": "405a12ac-fd7b-4d6d-894a-56759fada6e3",
+      "to_node": "eb45677c-b65a-4fb5-bafe-c8b98bd1d711",
+      "condition": "",
+      "meta": {
+        "label": "Stage 3 → 4 progression",
+        "condition": "",
+        "edge_type": "inter_stage",
+        "relevance_score": 0.75,
+        "reasoning": "After discussing payment options, exploring customization can ensure the solution is tailored to fit within the agreed terms.",
+        "from_stage": 3,
+        "to_stage": 4,
+        "parent_tag": "9d463bd3-ad9a-4aaf-830e-ba7394ce61ea"
+      },
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "from_node": "cd0ef72f-412f-42f4-b2d1-253ee7ebf5d9"
+    }
+  ],
+  "stages": [
+    {
+      "name": "Introduction and Rapport Building",
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "order_index": 0,
+      "id": "8dde40ea-5aa4-4a3f-9366-0c3f8da9540e",
+      "meta": {
+        "objective": "To be generated",
+        "recommended_nodes": 3,
+        "name": "Introduction and Rapport Building"
+      }
+    },
+    {
+      "name": "Identifying Needs and Challenges",
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "order_index": 1,
+      "id": "4c6e0a37-f7ca-476d-915c-399ad5a90b37",
+      "meta": {
+        "objective": "To be generated",
+        "recommended_nodes": 3,
+        "name": "Identifying Needs and Challenges"
+      }
+    },
+    {
+      "name": "Presenting AI Software Solutions",
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "order_index": 2,
+      "id": "e9d3b5aa-21e2-4167-8ed7-0148828e0e7f",
+      "meta": {
+        "objective": "To be generated",
+        "recommended_nodes": 3,
+        "name": "Presenting AI Software Solutions"
+      }
+    },
+    {
+      "name": "Addressing Budget Concerns",
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "order_index": 3,
+      "id": "24f8bed8-e193-435d-a167-d64805ce1315",
+      "meta": {
+        "objective": "To be generated",
+        "recommended_nodes": 3,
+        "name": "Addressing Budget Concerns"
+      }
+    },
+    {
+      "name": "Demonstrating Value and Closing",
+      "flow_id": "e0131c09-887c-47ce-bd76-131acf910ed3",
+      "order_index": 4,
+      "id": "af1db66f-19eb-46b7-995c-419344ee89ee",
+      "meta": {
+        "objective": "To be generated",
+        "recommended_nodes": 4,
+        "name": "Demonstrating Value and Closing"
+      }
+    }
+  ]
+}
