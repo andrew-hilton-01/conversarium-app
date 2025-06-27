@@ -156,14 +156,15 @@ export default function Landing() {
             <div className="text-center">
               <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl p-8 mb-4">
                 <MessageCircle className="w-16 h-16 text-blue-400 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">SPIN Selling Flow Example</h3>
-                <p className="text-slate-400">Interactive conversation graph coming soon</p>
+                <h3 className="text-xl font-semibold mb-2 text-white">SPIN Selling Flow Example</h3>
+                <p className="text-white">Selling AI Sales Practice software to Dr. Carter of State University</p>
               </div>
-              <Link to="/demo" className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium">
-                try now
+              <Link to="/demo" 
+              className="text-white relative bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 flex items-center justify-center space-x-2 overflow-hidden">
+                Try Now!
               </Link>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent rounded-2xl pointer-events-none"></div>
+            <div className="absolute inset-0 rounded-2xl pointer-events-none"></div>
           </div>
         </div>
       </section>
@@ -183,15 +184,19 @@ export default function Landing() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center space-x-3">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Try public demo (coming soon)</span>
+                  <span>No custom generation</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Limited flows & nodes</span>
+                  <span>Limited flows</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Basic scoring & feedback</span>
+                  <span>Basic scoring</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <Check className="w-5 h-5 text-green-400" />
+                  <span>Powered by Browser APIs</span>
                 </li>
               </ul>
               <button className="w-full bg-slate-700 hover:bg-slate-600 py-3 rounded-lg font-medium transition-colors">
@@ -227,7 +232,7 @@ export default function Landing() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Limits apply</span>
+                  <span>Choose models for audio & narrative</span>
                 </li>
               </ul>
               <button className="w-full bg-blue-500 hover:bg-blue-600 py-3 rounded-lg font-medium transition-colors">
@@ -298,8 +303,8 @@ export default function Landing() {
             </div>
             
             <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl border border-slate-800/50">
-              <h3 className="text-xl font-semibold mb-3">When will the demo be ready?</h3>
-              <p className="text-slate-300">We're putting the finishing touches on the live demo. Join our waitlist to be the first to try it when it launches.</p>
+              <h3 className="text-xl font-semibold mb-3">When will it be ready?</h3>
+              <p className="text-slate-300">The very early demo is live above, more features will be added progressively. Contact us at contact@conversarium.app with any questions or inquiries.</p>
             </div>
           </div>
         </div>
@@ -312,7 +317,7 @@ export default function Landing() {
             Ready to master every conversation?
           </h2>
           <p className="text-lg sm:text-xl text-slate-300 mb-8">
-            Join our waitlist! Be the first to access the determinstic conversation platform when we launch.
+            Join our waitlist! Be the first to access the determinstic conversation platform when we officially launch.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
@@ -346,7 +351,7 @@ export default function Landing() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm justify-center w-fit mx-auto text-center">
               <div className="flex items-center justify-center space-x-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <span>Live Demo</span>
+                <span>More Flows</span>
               </div>
               <div className="flex items-center justify-center space-x-2">
                 <div className="w-2 h-2 bg-purple-400 rounded-full"></div>

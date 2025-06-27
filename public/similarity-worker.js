@@ -17,40 +17,58 @@ async function loadModel() {
 }
 
 self.onmessage = async (e) => {
-  console.log("WORKER: Received a message:", e.data);
   const { type, userInput, nodes } = e.data;
 
   switch (type) {
     case 'init':
-      console.log("WORKER: 'init' message received. Starting model load.");
       await loadModel();
       return;
 
     case 'similarity':
       if (!model) { return console.error("WORKER: Similarity called before model was ready."); }
+      
+      let embeddings; // Declare here for the finally block
       try {
         const sentences = [userInput, ...nodes.map(node => node.content)];
-        const embeddings = await model.embed(sentences);
-        const results = tf.tidy(() => {
+        embeddings = await model.embed(sentences);
+        
+        // --- NEW, SIMPLER, AND MORE ROBUST CALCULATION LOGIC ---
+        const similarityScores = tf.tidy(() => {
+          // Unpack the embeddings tensor into an array of 1D tensors
           const [userInputVector, ...nodeVectors] = tf.unstack(embeddings);
-          if (nodeVectors.length === 0) return [];
-          const nodeMatrix = tf.stack(nodeVectors);
-          const dotProduct = tf.matMul(nodeMatrix, userInputVector.expandDims(1));
-          const nodeMagnitudes = nodeMatrix.norm(2, 1, true);
-          const userMagnitude = userInputVector.norm();
-          const similarities = dotProduct.div(nodeMagnitudes.mul(userMagnitude)).squeeze();
-          return similarities.arraySync();
+
+          // Calculate the similarity for each node vector against the user input vector
+          const scores = nodeVectors.map(nodeVector => {
+            const dotProduct = tf.dot(userInputVector, nodeVector);
+            const userNorm = tf.norm(userInputVector);
+            const nodeNorm = tf.norm(nodeVector);
+            
+            // All inputs to this division are now simple numbers (0D tensors), which is safe.
+            const similarityTensor = dotProduct.div(userNorm.mul(nodeNorm));
+            
+            // Use .dataSync() to get the raw number from the tensor
+            return similarityTensor.dataSync()[0];
+          });
+          
+          return scores; // This is now a clean array of numbers, e.g., [0.73, 0.48, 0.44]
         });
-        tf.dispose(embeddings);
+        // --- END OF NEW LOGIC ---
+
         const finalResults = nodes.map((node, index) => ({
           nodeId: node.id,
-          similarity: results[index] || 0,
+          similarity: similarityScores[index] || 0,
           content: node.content
         })).sort((a, b) => b.similarity - a.similarity);
+
+        console.log("WORKER: Sending back final results:", finalResults);
         self.postMessage({ type: 'similarity_result', results: finalResults });
+
       } catch (error) {
         console.error('WORKER: Error during similarity computation.', error);
         self.postMessage({ type: 'error', message: 'Failed to compute similarity.' });
+      } finally {
+        // Manually dispose of the embeddings tensor to prevent memory leaks
+        if (embeddings) tf.dispose(embeddings);
       }
       return;
   }
