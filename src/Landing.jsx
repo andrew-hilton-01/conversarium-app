@@ -154,11 +154,31 @@ export default function Landing() {
           <h2 className="text-2xl sm:text-3xl font-bold mb-8">See it in action</h2>
           <div className="relative backdrop-blur-sm rounded-2xl border border-slate-700/50 p-8 aspect-video flex items-center justify-center">
             <div className="text-center">
-              <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl p-8 mb-4">
-                <MessageCircle className="w-16 h-16 text-blue-400 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2 text-white">SPIN Selling Flow Example</h3>
-                <p className="text-white">Selling AI Sales Practice software to Dr. Carter of State University</p>
-              </div>
+              <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl p-8 mb-4 text-left space-y-4 shadow-lg max-w-200">
+  <MessageCircle className="w-16 h-16 text-blue-400 mx-auto mb-4" />
+  <h3 className="text-2xl font-semibold mb-3 text-white text-center">SPIN Selling Flow Example</h3>
+  <p className="text-lg text-slate-100 text-center mb-4">
+    Selling <span className="font-semibold text-blue-200">AI Sales Practice Software</span> to <span className="font-semibold text-blue-200">Dr. Emily Carter</span>, State School Administrator
+  </p>
+  <ul className="text-base text-slate-200 space-y-2">
+    <li>
+      <span className="font-semibold text-blue-300">Persona:</span> Dr. Carter is a pragmatic, analytical administrator with 10+ years' experience and a Ph.D. in Educational Leadership. She is known for integrating technology to improve student outcomes.
+    </li>
+    <li>
+      <span className="font-semibold text-blue-300">Objectives:</span> Improve education quality, implement cost-effective tech solutions, and ensure alignment with budget and curriculum goals.
+    </li>
+    <li>
+      <span className="font-semibold text-blue-300">Motivations:</span> Enhance student engagement, protect the school’s reputation, and innovate while staying within budget.
+    </li>
+    <li>
+      <span className="font-semibold text-blue-300">Constraints:</span> Limited budget, need for user-friendly software, and demand for measurable impact on learning.
+    </li>
+    <li>
+      <span className="font-semibold text-blue-300">Scenario:</span> Formal meeting to demonstrate the value of AI Sales Practice Software. Key goals: address budget concerns, prove educational benefits, and show fit with existing curriculum.
+    </li>
+  </ul>
+</div>
+
               <Link to="/demo" 
               className="text-white relative bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 flex items-center justify-center space-x-2 overflow-hidden">
                 Try Now!
@@ -271,8 +291,14 @@ export default function Landing() {
               <button formAction="mailto:contact@conversarium.app" className="w-full bg-slate-700 hover:bg-slate-600 py-3 rounded-lg font-medium transition-colors">
                 
                   Contact Sales
+                  
                 
               </button>
+              <div className="flex items-center justify-center gap-2 mt-20">
+                <Mail />
+                <span>: contact@conversarium.app</span>
+              </div>
+
               </form>
             </div>
           </div>
@@ -382,7 +408,7 @@ export default function Landing() {
               </a>
               <a href="mailto:contact@conversarium.app" className="text-slate-400 hover:text-white transition-colors flex items-center space-x-2">
                 <Mail className="w-5 h-5" />
-                <span>Contact</span>
+                <span>Contact: contact@conversarium.app</span>
               </a>
             </div>
           </div>
