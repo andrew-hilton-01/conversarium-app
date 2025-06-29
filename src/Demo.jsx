@@ -1,4 +1,4 @@
-import { ReactFlowProvider, ReactFlow, Background } from '@xyflow/react';
+import { ReactFlowProvider, ReactFlow, Background, Controls } from '@xyflow/react';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import TutorialOverlay from './TutorialOverlay'; // Make sure path is correct
 import { Handle, Position } from '@xyflow/react';
@@ -444,6 +444,13 @@ export default function Demo() {
                 >
                     <Background color="#1e293b" gap={20} size={1} variant="dots" />
                 </ReactFlow>
+                <div style={{ position: "absolute", 
+                  left: 16, 
+                  bottom: 80, 
+                  zIndex: 10, 
+                  }}>
+                  <Controls />
+                </div>
             </div>
         </ReactFlowProvider>
         {!isPracticeComplete && (

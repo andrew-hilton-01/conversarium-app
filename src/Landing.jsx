@@ -81,12 +81,12 @@ export default function Landing() {
               <span>Get Early Access</span>
               <ChevronDown className="w-5 h-5" />
             </button>
-            <Link to="/demo"
+            <button  onClick={() => scrollToSection('demo')}
             className="relative bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 flex items-center justify-center space-x-2 overflow-hidden"
             >
             <span className="relative z-10">Live Demo</span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-700/20 to-transparent animate-pulse z-0 rounded-lg"></div>
-            </Link>
+            </button>
 
           </div>
           
@@ -149,7 +149,7 @@ export default function Landing() {
       </section>
 
       {/* Screenshot/Mockup Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-slate-950 via-slate-900/70 to-slate-950 relative z-10">
+      <section id="demo" className="py-20 px-4 bg-gradient-to-br from-slate-950 via-slate-900/70 to-slate-950 relative z-10">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-8">See it in action</h2>
           <div className="relative backdrop-blur-sm rounded-2xl border border-slate-700/50 p-8 aspect-video flex items-center justify-center">
@@ -361,19 +361,23 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Next Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-slate-950 via-slate-900/70 to-slate-950 relative z-10">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">About Conversarium</h2>
-          <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-            Originally inspired by the need for sales students to get repetitions mastering their process in a determinstic way, Conversarium 
-            offers a structured, and gameified conversation flow graph for any context, without having to trust leaky LLMs to manage the structure,
-            pacing, or topics of conversation. Each conversation is a traversable graph with paramaters you can configure at generation to ensure
-            it fits your intended use. From practicing for an upcoming business deal, to filling an open world with lively and realistic characters.
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">What's Next?</h2>
+          <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto justify-center">
+            <p className='mb-4 text-white text-xl'>Our aim is to deliver a flexible, powerful environment for creating and managing LLM-powered, dynamic, and deterministic dialogue;
+              <p className='text-blue-400 text-3xl font-bold leading-tight mt-8 mb-8'>for any purpose.</p></p>
+            Building on our foundation, we aim to evolve to become a complete platform for structured, intelligent conversation.
+             Upcoming milestones include full API access, enabling seamless integration into external applications; custom voice integrations
+              to support a wide range of TTS providers; a comprehensive analytics dashboard for tracking user engagement and outcomes of conversations;
+               and an advanced admin dashboard for building and managing conversation flows. We are also developing a robust, user-friendly
+                client interface to ensure every user—whether practicing, teaching, or deploying conversational AI—has the tools they need.
+                 
           </p>
           
           <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl border border-slate-800/50 max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4 text-center">Coming Soon</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Features In Progress</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm justify-center w-fit mx-auto text-center">
               <div className="flex items-center justify-center space-x-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
